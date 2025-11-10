@@ -6,7 +6,7 @@ import { selectIsDarkTheme } from "../../common/themeSlice";
 
 
 
-function App() {
+export const App = () => {
   
 
   return (
