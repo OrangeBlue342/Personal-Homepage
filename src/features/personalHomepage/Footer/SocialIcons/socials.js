@@ -1,0 +1,1 @@
+import { ReactComponent as GithubIcon} from "./icons/Github.svg";

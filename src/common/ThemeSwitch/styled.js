@@ -51,5 +51,6 @@ transform: translateX(20px);
 export const Icon = styled(SunIcon)`
 width: 14px;
 height: 14px;
+fill: currentColor;
 color: ${({ theme }) => theme.colors.themeSwitch.icon};
 `;
