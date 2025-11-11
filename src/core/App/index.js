@@ -3,22 +3,17 @@ import { ThemeProvider } from "styled-components";
 import { GlobalStyle } from "./GlobalStyle";
 import { themeDark, themeLight} from "./theme";
 import { selectIsDarkTheme } from "../../common/themeSlice";
+import { PersonalHomepage } from "../../features/personalHomepage";
 
 
 
 export const App = () => {
-  
+  const isDarkTheme = useSelector(selectIsDarkTheme);
 
   return (
-    <ThemeProvider theme={themeLight}>
+    <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
       <GlobalStyle />
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <PersonalHomepage />
     </ThemeProvider>
   );
 }

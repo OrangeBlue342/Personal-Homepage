@@ -1,5 +1,3 @@
-import { Icon } from "../../common/ThemeSwitch/styled";
-
 const colorNames = {
     scienceBlue: "#0366D6",
     blumine: "#1F5189",
