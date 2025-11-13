@@ -19,7 +19,7 @@ export const List = styled.ul`
 margin-top: 32px;
 padding: 0;
 display: grid;
-grid-template-columns: repeat()(3, 1fr);
+grid-template-columns: repeat(3, 1fr);
 grid-gap: 8px 32px;
 list-style: none;
 

@@ -18,13 +18,13 @@ export const Tile = styled.li`
 padding: 56px;
 margin: 0;
 background: ${({ theme }) => theme.colors.boxBackground};
-border: 6px solid ${({ theme }) => theme.colors.tile.border};
+border: 6px solid ${({ theme }) => theme.colors.title.border};
 transition: border-color 0.3s;
 box-shadow: ${({ theme }) => theme.boxShadow};
 border-radius: ${({ theme }) => theme.borderRadiusSmall};
 
 &:hover {
-    border-color: ${({ theme }) => theme.colors.tile.borderHover}
+    border-color: ${({ theme }) => theme.colors.title.borderHover}
 }
 
 @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -34,7 +34,7 @@ border-radius: ${({ theme }) => theme.borderRadiusSmall};
 
 export const Name = styled.h3`
 font-size: 24px;
-color: ${({ theme }) => theme.colors.tile.header};
+color: ${({ theme }) => theme.colors.title.header};
 margin: 0;
 
 @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
