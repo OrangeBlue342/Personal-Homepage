@@ -2,7 +2,7 @@
   "name": "personal-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://orangeblue342.github.io/personal-homepage/",
+  "homepage": "https://orangeblue342.github.io/Personal-Homepage/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.10.1",
     "@testing-library/dom": "^10.4.1",
