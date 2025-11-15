@@ -9,4 +9,4 @@ This is my virtual Frontend CV. Get in and see!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Demo:
+Demo: https://orangeblue342.github.io/Personal-Homepage/
